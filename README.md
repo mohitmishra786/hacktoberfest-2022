@@ -39,7 +39,7 @@ Star this repository.
 - Add any code file or any program that you have already created
 - Now click on Propose button.
 - Create a new pull request.
-- Wait for your Pull Request to be reviewed and merged!
+- Wait for your Pull Request to be reviewed and merged! 
 
 Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)
 You Can Upload Coded Projects In the Codes Directory
