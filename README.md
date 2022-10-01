@@ -1,6 +1,15 @@
 # Hacktober-Fest-2022
 This repo is mainly being made for Hacktoberfest 2022.
 
+# HOW CAN I CONTRIBUTE
+
+Star this repository.
+- Navigate To any issue already opened above that interests you and do some crazy contribution to that issue
+- Add any code file or any program that you have already created
+- Now click on Propose button.
+- Create a new pull request.
+- Wait for your Pull Request to be reviewed and merged!
+
 [Check The Contribution Guideline](https://github.com/mohitmishra786/hacktober-fest-2022/blob/main/contribution.md)
 
 ## SHOW SOME LOVE GUYS BY ⭐️ THIS REPOSITORY, IT REALLY MOTIVATES
