@@ -3,7 +3,12 @@ This repo is mainly being made for Hacktoberfest 2022.
 
 [Check The Contribution Guideline](https://github.com/mohitmishra786/hacktober-fest-2022/blob/main/contribution.md)
 
-***A beginner-friendly project to help you in open-source contribution. Made specifically for contribution in HACKTOBERFEST 2021! Hello World Programs and Algorithms! Please leave a star to support this project! ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)***
+## SHOW SOME LOVE GUYS BY ⭐️ THIS REPOSITORY, IT REALLY MOTIVATES
+
+***A beginner-friendly project to help you in open-source contribution. Made specifically for contribution in HACKTOBERFEST 2021! Hello World Programs and Algorithms! Please leave a star to support this project!***
+
+![image](https://user-images.githubusercontent.com/71754779/193424511-1d64fb6a-e045-4103-810d-5bba322cf982.png)
+
 
 ## This All programs For beginner
 - Enjoy All Hacktoberfest has a simple and plain moto.
@@ -30,8 +35,8 @@ Wait there's more!
 It's very easy. You don't need to be an expert in coding and programming. Here are the steps you need to follow to create your -(maybe)- EXAMPLE first pull request within few minutes.
 
 Star this repository.
-- Navigate To any folder above that interests you and do some crazy contribution file
-- Add any code file or any program that you have already cloreated
+- Navigate To any issue already opened above that interests you and do some crazy contribution to that issue
+- Add any code file or any program that you have already created
 - Now click on Propose button.
 - Create a new pull request.
 - Wait for your Pull Request to be reviewed and merged!
