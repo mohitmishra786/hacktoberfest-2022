@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+
+struct node
+{
+	int data;
+	node* next;
+};
+node* insert(node* head, int value)
+{
+	node* temp1 = (node*)malloc(sizeof(node));
+	temp1->data = value;
+	temp1->next = NULL;
+	if (head == NULL)
+	{
+		head = temp1;
+	}
+	else
+	{
+		node* temp2 = head;
+		while (temp2->next!=NULL)
+		{
+			temp2 = temp2->next;
+		}
+		temp2->next = temp1;
+	}
+	return head;
+}
+void print(node* p)
+{
+	if (p == NULL)
+		return;
+	cout << p->data << " ";
+	print(p->next);
+}
+void reverse_order(node* p)
+{
+	if (p == NULL)
+		return;
+	reverse_order(p->next);
+	cout << p->data << " ";
+}
+int main()
+{
+	node* head = NULL;
+	head = insert(head, 1);
+	head = insert(head, 2);
+	head = insert(head, 3);
+	print(head);             //list: 1 2 3.
+	cout << endl;
+	reverse_order(head);    //list: 3 2 1.
+
+	return 0;
+}
