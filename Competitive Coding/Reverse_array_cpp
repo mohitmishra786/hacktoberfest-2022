@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+// Print contents of an array in reverse order in C++
+// using array indices
+int main()
+{
+    int arr[] = { 10, 20, 30, 40 };
+    size_t n = sizeof(arr)/sizeof(arr[0]);
+ 
+    // iterate backwards over the elements of an array
+    for (int i = n - 1; i >= 0; i--) {
+        std::cout << arr[i] << ' ';
+    }
+ 
+    return 0;
+}
