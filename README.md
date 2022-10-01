@@ -9,10 +9,10 @@ This repo is mainly being made for Hacktoberfest 2022.
 - Enjoy All Hacktoberfest has a simple and plain moto.
 
 ## Beginner-Hacktoberfest
-- Need Your first pr for hacktoberfest 2k21 ? come on in
+- Need Your first pr for hacktoberfest 2k22 ? come on in
 
 ## ❓ What's Hacktoberfest 2022?
-Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by Digital Ocean and DEV this year in 2021.
+Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by Digital Ocean and DEV this year in 2022.
 
 During the entire month of October 2022, all you have to do is contribute to any open source projects and open at least 4 pull requests. Yes, any project and any kind of contributions. It can be a be a bug fix, improvement, or even a documentation change! And win a T-Shirt and awesome stickers.
 
@@ -30,12 +30,13 @@ Wait there's more!
 It's very easy. You don't need to be an expert in coding and programming. Here are the steps you need to follow to create your -(maybe)- EXAMPLE first pull request within few minutes.
 
 Star this repository.
-Navigate To index.html or main.css do so crazy contribution file
-Edit the file and insert the line of text in the specified location in the format as given in comment .
-Now click on Propose button.
-Create a new pull request.
-Wait for your Pull Request to be reviewed and merged!
-Enjoy and welcome to Hacktoberfest 2021 and Keep Contributing :)
+- Navigate To any folder above that interests you and do some crazy contribution file
+- Add any code file or any program that you have already cloreated
+- Now click on Propose button.
+- Create a new pull request.
+- Wait for your Pull Request to be reviewed and merged!
+
+Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)
 You Can Upload Coded Projects In the Codes Directory
 
 ## Code Of Conduct
@@ -52,4 +53,4 @@ Public or private harassment
 Publishing others' private information, such as a physical or electronic address, without explicit permission
 
 ## 🎯Objectives
-- The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2021
+- The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2022
