@@ -2,6 +2,8 @@
 
 ![Hacktoberfest logo](https://user-images.githubusercontent.com/71754779/193403679-9a17df23-fa1f-43f2-a289-111ad63a92d4.png)
 
+# How can i contribute
+
 Star this repository.
 - Navigate To any issue already opened above that interests you and do some crazy contribution to that issue
 - Add any code file or any program that you have already created
