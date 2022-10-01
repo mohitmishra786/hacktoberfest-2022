@@ -2,6 +2,13 @@
 
 ![Hacktoberfest logo](https://user-images.githubusercontent.com/71754779/193403679-9a17df23-fa1f-43f2-a289-111ad63a92d4.png)
 
+Star this repository.
+- Navigate To any issue already opened above that interests you and do some crazy contribution to that issue
+- Add any code file or any program that you have already created
+- Now click on Propose button.
+- Create a new pull request.
+- Wait for your Pull Request to be reviewed and merged!
+
 ### LOVES open-source and we are excited to participate in [Hacktoberfest 2022](https://hacktoberfest.com/)! 🎉🎉
 
 ### Steps ( You can add PR related to any code, blogs, your portfolio, anything you want. But it should be code related)
