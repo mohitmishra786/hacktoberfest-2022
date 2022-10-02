@@ -1,5 +1,5 @@
 # Hacktober-Fest-2022
-This repo is mainly being made for Hacktoberfest 2022. Sorry, this repo is excluded
+This repo is mainly being made for Hacktoberfest 2022.
 
 
 # HOW CAN I CONTRIBUTE
