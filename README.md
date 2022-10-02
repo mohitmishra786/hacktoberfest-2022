@@ -1,6 +1,10 @@
 # Hacktober-Fest-2022
 This repo is mainly being made for Hacktoberfest 2022.
 
+#THIS REPOSITORY IS EXCLUDED
+![excluded](https://user-images.githubusercontent.com/92597560/193443737-72f367f7-0c04-4654-a7f1-48f766d09269.jpg)
+
+
 # HOW CAN I CONTRIBUTE
 
 Star this repository.
