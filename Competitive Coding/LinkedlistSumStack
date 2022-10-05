@@ -1,0 +1,180 @@
+import java.util.Stack;
+
+	 
+	public class LinkedlistSumStack 
+	{
+	    private class ListNode
+	    {
+	        int value;
+	        ListNode next;
+	
+	        ListNode(int value)
+	        {
+	            this.value = value;
+	        }
+	    }
+	    
+	    ListNode head;
+	    ListNode tail;
+	    
+	     
+        	    private void appendNode(int value)
+	    {
+	        if (head == null)
+	        {
+	            head = new ListNode(value);
+	            tail = head;
+	            return;
+	        }
+	        
+	        ListNode n = new ListNode(value);
+	        tail.next = n;
+	        tail = n;
+	    }
+	
+	     
+	    private ListNode createLinkedList(Stack<Integer> s)
+	    {
+	         
+	         
+	        if (head != null)
+	        {
+	            head = null;
+	        }
+	        
+	        while (!s.isEmpty())
+	        {
+	            appendNode(s.pop());
+	        }
+	        return head;
+	    }
+	    
+	     
+	    public ListNode createLinkedList(int[] number)
+	    {
+	         
+            if (head != null)
+	        {
+	            head = null;
+	        }
+	        
+	        for (int i = 0; i < number.length; i++)
+	        {
+	            appendNode(number[i]);
+	        }
+            return head;
+	    }
+	    
+	    public void printList(ListNode head)
+	    {
+	        ListNode temp = head;
+	        
+	        while (temp != null)
+	        {
+            System.out.print(temp.value + "->" );
+	            temp = temp.next;
+	        }
+	        System.out.print("null" );
+	    }
+	    
+	    
+	    public ListNode addLists(ListNode node1, ListNode node2)
+	    {
+	        if (node1 == null)
+	        {
+	            return node2;
+	        }
+        if (node2 == null)
+	        {
+	            return node1;	 
+                   }
+	        
+	        Stack<Integer> s1 = new Stack<Integer>();
+	        Stack<Integer> s2 = new Stack<Integer>();
+	        Stack<Integer> s3 = new Stack<Integer>();
+	        
+	         
+	        ListNode temp = node1;
+	        while (temp != null)
+        {
+	            s1.push(temp.value);
+	            temp = temp.next;
+	        }
+	        
+	         
+	        temp = node2;
+	        while (temp != null)
+	        {
+	            s2.push(temp.value);
+	            temp = temp.next;
+	        }
+	
+	        int sum = 0, carry = 0, value1, value2;
+	        
+	         
+	         
+	        while ((!s1.empty()) && (!s2.empty()))
+	        {
+	            value1 = s1.pop();
+	            value2 = s2.pop();
+	            
+	            sum   = (value1 + value2 + carry) % 10;
+	            carry = (value1 + value2 + carry) / 10;
+	            
+            s3.push(sum);
+	        }
+	        
+	         
+	        while (!s1.isEmpty())
+	        {
+	            value1 = s1.pop();
+	            
+	            sum   = (value1 + carry) % 10;
+	            carry = (value1 + carry) / 10;
+	            
+	            s3.push(sum);
+	        }
+	        
+	         
+	        while (!s2.isEmpty())
+	        {
+	            value2 = s2.pop();
+	            
+	            sum   = (value2 + carry) % 10;
+	            carry = (value2 + carry) / 10;
+	            
+	            s3.push(sum);
+	        }
+	        
+	         
+	         
+	        if (carry > 0)
+	        {
+            s3.push(carry);
+	        }
+	        
+	         
+	         
+	        return createLinkedList(s3);
+	    }
+	    
+	    
+	    public static void main(String[] args) 
+	    {
+	        LinkedlistSumStack solution = new LinkedlistSumStack();
+	
+	        int[] firstNumber  = {9,9,9,7,1};  
+	        int[] secondNumber = {9,9,8};  
+	        
+	         
+	        ListNode head1 = solution.createLinkedList(firstNumber);
+	        
+	         
+	        ListNode head2 = solution.createLinkedList(secondNumber);
+	        
+	        ListNode result = solution.addLists(head1, head2);
+	        
+	        System.out.print("Resultant sum represented as a linked list is: \n" );
+	        solution.printList(result);
+	    }
+	}
